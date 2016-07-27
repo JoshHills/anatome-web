@@ -1,0 +1,258 @@
+/* Custom Scenes */
+
+/* Sizing */
+#scene-1 { height: 1080px; }
+#scene-2 { height: 1126px; }
+#scene-3 { height: 1126px; }
+#scene-4 { height: 1126px; }
+#scene-5 { height: 1126px; }
+#scene-6 { height: 1800px; }
+#scene-7 { height: 980px; }
+#scene-8 { height: 1080px; }
+
+/* Colouring */
+#scene-1 { background-color: #574673 }
+#scene-2 { background-color: #54d3e2 }
+#scene-3 { background-color: #3c60e8 }
+#scene-4 { background-color: #f2f6c4 }
+#scene-5 { background-color: #4eaa3f }
+#scene-6 { background-color: #52245e }
+#scene-6-1 { background-color: #aa54c1 }
+#scene-6-2 { background-color: #da4e37 }
+#scene-6-3 { background-color: #cbc364 }
+#scene-7 { background-color: #98de95 }
+#scene-8 { background-color: #4f4f4f }
+
+/* Containers */
+
+.section {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+
+a#scrollbtn div {
+    margin-top: 1em;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    transition: background-image 0.2s ease-in-out;
+    background-image: url('../img/scroll-btn.png');
+    background-size: cover;
+}
+a#scrollbtn:hover div {
+    background-image: url('../img/scroll-btn-up.png'); 
+}
+
+/* Text */
+
+.text-wrap.text-preamble {
+    top: 580px;   
+}
+.text-wrap.text-toolbox {
+    top: 930px;   
+}
+.text-wrap.text-world {
+    top: 470px;   
+}
+.text-wrap.text-audience {
+    top: 820px;   
+}
+.text-wrap.text-research {
+    top: 470px;   
+}
+.text-wrap.text-section {
+    top: 450px;   
+}
+.text-wrap.text-download {
+    top:700px;
+    color: #333333;
+}
+.text-wrap.text-team {
+    top: 150px;
+}
+.text-wrap.text-attributions {
+    top: 700px
+}
+
+/* Scene One Images */
+
+.single-image.logo {
+    top: 300px;
+    margin-left: -346px;
+}
+.single-image.stripe {
+    top: 884px;
+    margin-left: -1000px;   
+}
+.single-image.grey {
+    top: 1004px;
+    margin-left: -1000px;   
+}
+
+/* Scene Two Images */
+
+.bg-image.shelving {
+   top: 150px;    
+}
+.single-image.table {
+    top: 611px;
+    margin-left: -1000px;
+}
+.single-image.toolbox {
+    top: 525px;
+    margin-left: -390px;   
+}
+.single-image.hearts {
+    top: 650px;
+    margin-left: -59px;
+}
+.single-image.hearts img {
+    animation-name: pulse_animation;
+	animation-duration: 3500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes pulse_animation {
+	0% { height: 96px; width: 96px; }
+	50% { height: 128px; width: 128px; }
+	100% { height: 96px; width: 96px; }
+}
+.single-image.tray {
+    top: 865px;
+    margin-left: -865px;
+}
+.single-image.screwdriver {
+    top: 915px;
+    margin-left: 345px;
+}
+.single-image.spanner {
+    top: 980px;
+    margin-left: 470px;
+}
+
+/* Scene Three Images */
+
+.bg-image.waves {
+    animation-name: sway_animation;
+	animation-duration: 3500ms;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+@keyframes sway_animation {
+    from { margin-left: -1050px; opacity: 0.3 }
+    to { margin-left: -1000px; opacity: 1 }
+}
+.single-image.northp {
+    margin-left: -288px;
+}
+.single-image.southp {
+    top: 998px;
+    margin-left: -627px;
+}
+.single-image.worldl {
+    top: 85px;
+    margin-left: -1000px;
+}
+.single-image.worldr {
+    top: 70px;
+    margin-left: 243px;
+}
+
+/* Scene Four Images */
+
+.single-image.postitsl {
+    top: 150px;
+    margin-left: -630px;
+}
+.single-image.postitsr {
+    top: 345px;
+    margin-left: 350px;
+}
+.single-image.mirror {
+    top: 50px;
+    margin-left: -285px;
+}
+.single-image.reflection {
+    top: 200px;
+}
+.single-image.person {
+    top: 519px;
+    margin-left: -450px;
+}
+
+/* Scene Five Images */
+
+.single-image.bookcasedark {
+    top: 60px;
+    margin-left: -1000px;
+}
+.single-image.bookcaselight {
+    top: 125px;
+    margin-left: -793px;
+}
+.single-image.energydrink {
+    top: 863px;
+    margin-left: -820px;
+}
+.single-image.book {
+    top: 740px;
+    margin-left: -520px;;
+}
+.single-image.pc {
+    top: 305px;
+    margin-left: 410px;
+}
+.single-image.bubble {
+    top: -20px;
+    margin-left: 435px;
+}
+.single-image.survey {
+    top: 768px;
+    margin-left: 140px;
+}
+.single-image.graph {
+    top: 240px;
+    margin-left: 235px;
+}
+
+/* Scene Six Images */
+
+.icon {
+    top: 90px;
+    margin-left: -155px;
+}
+
+/* Scene Seven Images */
+
+.single-image.circuitst {
+    margin-left: -631px;
+}
+.single-image.circuitsb {
+    top: 582px;
+    margin-left: -633px;
+}
+.single-image.behind {
+    top: 855px;
+    margin-left: -1000px;
+}
+.single-image.phone {
+    top: 219px;
+    margin-left: -245px;
+}
+.single-image.android {
+    top: 385px;
+    margin-left: -131px;
+}
+
+/* Scene Eight Images */
+
+.single-image.wellbeings {
+    top: 350px;
+    margin-left: -329px;
+}
